@@ -1,8 +1,8 @@
 #co = cough(기침) / tem = temperature(체온) / mu_pa = muscle pain(근육통) / nos = nose(콧물) / nos_n = 콧물_감기 / galae = 가래
 print("바이러스 감염 자가진단 프로그램 시작하겠습니다.")
-co = input("기침이 자주 나오십니까? (O/X)  :  ")
-co = str(co)
-if co.lower() == "o":
+co/tem = input("기침이 자주 나오거나 열이 있으십니까? (O/X)  :  ")
+co/tem = str(co)
+if co/tem.lower() == "o":
     tem = input("현재 체온을 입력해주세요 :  ")
     tem = float(tem)
     if tem >= 39:
@@ -27,5 +27,5 @@ if co.lower() == "o":
             print('일반형 코로나 바이러스 감염으로 예상됩니다.')
     elif tem < 37.5:
         print('병원에 가셔서 진료를 받으시길 바랍니다.')
-elif co.lower() == 'x':
+elif co/tem.lower() == 'x':
     print('의심되는 감염병이 발견되지 않았습니다. 프로그램을 종료하겠습니다.')
