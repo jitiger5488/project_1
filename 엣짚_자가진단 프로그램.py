@@ -1,3 +1,4 @@
+#co = cough(기침) / tem = temperature(체온) / mu_pa = muscle pain(근육통) / nos = nose(콧물) / nos_n = 콧물_감기 / galae = 가래
 print("바이러스 감염 자가진단 프로그램 시작하겠습니다.")
 co = input("기침이 자주 나오십니까? (O/X)  :  ")
 co = str(co)
